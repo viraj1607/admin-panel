@@ -1,0 +1,13 @@
+.userlist{
+    flex: 4;
+
+    .user-list{
+        display: flex;
+        align-items: center;
+        .user-list-img{
+            width: 35px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+    }
+}

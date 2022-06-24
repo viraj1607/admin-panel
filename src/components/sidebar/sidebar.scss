@@ -1,0 +1,37 @@
+.sidebar{
+    flex: 1;
+    background-color: rgba($color: #efefef, $alpha: 1.0);
+    height: calc(100vh - 60px);
+    position: sticky;
+    top: 60px;
+    .wrapper{
+        .menu{
+            padding: 0px 20px;
+            h3{
+                font-size: 16px;
+            }
+            .menu-list{
+                list-style: none;
+                padding: 0px;
+                .active{
+                    background-color:wheat                
+                }
+                .item{
+                    display: flex;
+                    align-items: center;
+                    padding: 4px 10px;
+                    font-weight: 500;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    &:hover{
+                        background-color:wheat  
+                    }
+                    .icon{
+                        margin-right: 10px;
+                        color: darkred;
+                    }
+                }
+            }
+        }
+    }
+}

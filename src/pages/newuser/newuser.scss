@@ -1,0 +1,57 @@
+.newuser{
+    flex: 4;
+    .newuser-heading{
+        margin: 20px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    form{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        .user-info{
+            .user-input{
+                display: flex;
+                flex-direction: column;
+                margin: 20px 0;
+                input{
+                    border: none;
+                    border-bottom: 1px solid gray;
+                    width: 500px;
+                    height: 35px;
+                    outline: none;
+                }
+                select{
+                    margin-top: 10px;
+                    height: 35px;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid grey;
+                    cursor: pointer;
+                }
+            }
+            .radio-input{
+                margin-top: 10px;
+                display: flex;
+                label{
+                    display: flex;
+                    align-items: center;
+                    input{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .create-btn{
+        margin: 20px 65px;
+        border: none;
+        outline: none;
+        width: 180px;
+        padding: 8px 0;
+        border-radius: 5px;
+        color: white;
+        background-color: green;
+        cursor: pointer;
+    }
+}
